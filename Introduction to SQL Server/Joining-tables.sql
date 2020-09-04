@@ -137,3 +137,86 @@ ADD university_shortname text;
 SELECT *
 FROM professors
 
+-- RENAME
+-- and
+-- DROP COLUMNs in affiliations
+-- As mentioned in the video, the still empty affiliations table has some flaws. In this exercise, you'll correct them as outlined in the video.
+
+-- You'll
+-- use the
+-- following
+-- queries:
+
+-- To rename
+-- columns:
+-- ALTER TABLE table_name
+-- RENAME COLUMN old_name TO new_name;
+-- To
+-- delete
+-- columns:
+-- ALTER TABLE table_name
+-- DROP COLUMN column_name;
+
+-- Rename the organisation column
+-- ALTER TABLE affiliations
+-- RENAME COLUMN organisation TO organization;
+
+-- Migrate data
+-- with
+-- INSERT INTO
+-- SELECT DISTINCT
+--     Now it
+-- 's finally time to migrate the data into the new tables. You'll
+-- use the
+-- following
+-- pattern:
+
+-- INSERT INTO ...
+-- SELECT DISTINCT ... 
+-- FROM ...;
+-- It can be broken up into two
+-- parts:
+
+-- First
+-- part:
+
+-- SELECT DISTINCT column_name1, column_name2, ...
+-- FROM table_a;
+-- This selects all distinct values in table table_a – nothing new for you.
+
+-- Second
+-- part:
+
+-- INSERT INTO table_b ...
+-- ;
+-- Take this part and append it to the first, so it inserts all distinct rows from table_a into table_b.
+
+-- One last
+-- thing:
+-- It is important that you run all of the code at the same time once you have filled out the blanks.
+
+-- Insert unique professors into the new table
+INSERT INTO professors
+SELECT DISTINCT firstname, lastname, university_shortname
+FROM university_professors;
+
+-- Doublecheck the contents of professors
+SELECT *
+FROM professors;
+
+-- Delete tables
+-- with
+-- DROP TABLE
+-- Obviously, the
+-- university_professors table is now no longer needed and can safely be deleted.
+
+-- For table deletion, you can
+-- use the
+-- simple
+-- command:
+
+-- DROP TABLE table_name;
+
+-- Delete the university_professors table
+DROP TABLE university_professors;
+
