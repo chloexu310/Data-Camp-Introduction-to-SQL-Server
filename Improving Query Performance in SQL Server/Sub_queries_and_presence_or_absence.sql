@@ -1,5 +1,5 @@
 
--- Sub-queries and presence or absence
+-- Sub-queries and presence or absence!!
 -- This chapter is an introduction to sub-queries and their potential impacts on query performance. It also examines the different methods used to determine if the data in one table is present, or absent, in a related table.
 
 

@@ -323,10 +323,10 @@ FROM structure
 -- create a CTE to find the connected lines and finally, to filter on the desired characteristics.
 
 -- Define the table CTE
-WITH
-    maintenance_List(Line, Destination, Source, Description, ConditionAssessment, VoltageLevel)
-    AS
-    (
+-- WITH
+--     maintenance_List(Line, Destination, Source, Description, ConditionAssessment, VoltageLevel)
+--     AS
+--     (
                     SELECT
                 EquipmentID,
                 EquipmentID_To,
@@ -349,7 +349,7 @@ WITH
                 -- Join GridStructure with CTE on the corresponding endpoints
                 JOIN maintenance_List
                 ON maintenance_List.Line = Child.EquipmentID_FROM
-    )
+    
 SELECT Line, Description, ConditionAssessment
 FROM maintenance_List
 -- Filter the lines based on ConditionAssessment and VoltageLevel

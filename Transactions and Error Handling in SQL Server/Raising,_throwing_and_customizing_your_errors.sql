@@ -1,4 +1,4 @@
--- Raising, throwing and customizing your errors
+-- Raising, throwing and customizing your errors!!
 -- In this chapter, you will deepen your knowledge of handling errors. You will learn how to raise errors using RAISERROR and THROW. Additionally, you will discover how to customize errors.
 
 

@@ -1,6 +1,6 @@
 -- Classification of Triggers
 -- Learn about the different types of SQL Server triggers: AFTER triggers (DML), INSTEAD OF triggers (DML), DDL triggers, and logon triggers.
-
+-- Create the trigger
 -- Tracking retired products
 -- As shown in the example from the video, Fresh Fruit Delivery needs to keep track of any retired products in a dedicated history table (RetiredProducts).
 

@@ -1,5 +1,5 @@
 
--- Starting with error handling
+-- Starting with error handling!!
 -- To begin the course, you will learn how to handle errors using the TRY...CATCH construct that provides T-SQL. You will study the anatomy of errors, and you will learn how to use some functions that can give you information about errors.
 
 -- Your first error-handling script

@@ -1,6 +1,6 @@
 -- Trigger Optimization and Management
 -- Learn to delete and modify triggers. Acquaint yourself with the way trigger management is done. Learn how to investigate problematic triggers in practice.
-
+-- Classification of Triggers
 
 -- Removing unwanted triggers
 -- After some time, the Fresh Fruit Delivery company notices that some of the triggers they requested are no longer needed. Their workflow has changed and not all of the triggers are used now.

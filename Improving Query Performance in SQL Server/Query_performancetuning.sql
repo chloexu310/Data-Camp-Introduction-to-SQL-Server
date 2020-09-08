@@ -1,4 +1,4 @@
--- Query performance tuning
+-- Query performance tuning !!
 -- Students are introduced to how STATISTICS TIME, STATISTICS IO, indexes, and executions plans can be used in SQL Server to help analyze and tune query performance.
 
 

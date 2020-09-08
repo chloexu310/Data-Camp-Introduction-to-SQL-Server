@@ -1,4 +1,4 @@
--- User Defined Functions
+-- User Defined Functions!!
 -- This chapter will explain how to create, update, and execute user-defined functions (UDFs). You will learn about the various types of UDFs: scalar, inline, and multi-statement table-valued. You’ll also learn best practices.
 
 
@@ -7,7 +7,9 @@
 
 -- Create GetYesterday()
 CREATE FUNCTION GetYesterday()
+
 -- Specify return data type
+
     RETURNS date 
 AS
 BEGIN

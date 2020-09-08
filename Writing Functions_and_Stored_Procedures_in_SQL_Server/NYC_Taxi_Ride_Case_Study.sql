@@ -1,5 +1,5 @@
 
--- NYC Taxi Ride Case Study
+-- NYC Taxi Ride Case Study!!
 -- Apply your new skills in temporal EDA, user-defined functions, and stored procedures to solve a business case problem. Analyze the New York City taxi ride dataset to identify average fare per distance, ride count, and total ride time for each borough on each day of the week. And which pickup locations within the borough should be scheduled for each driver shift?
 
 -- Use EDA to find impossible scenarios

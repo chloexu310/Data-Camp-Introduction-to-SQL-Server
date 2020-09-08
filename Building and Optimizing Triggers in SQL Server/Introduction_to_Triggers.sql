@@ -1,6 +1,6 @@
 -- Introduction to Triggers
 -- An introduction to the basic concepts of SQL Server triggers. Create your first trigger using T-SQL code. Learn how triggers are used and what alternatives exist.
-
+-- Classification of Triggers
 
 -- Creating your first trigger
 -- You have been hired by the company Fresh Fruit Delivery to help secure their database and ensure data integrity. The company sells fresh fruit to other online shops, and they use several tables to keep track of stock and placed orders.

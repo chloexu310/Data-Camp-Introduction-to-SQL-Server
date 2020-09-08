@@ -1,4 +1,4 @@
--- Filtering and Data Interrogation
+-- Filtering and Data Interrogation !!
 -- This chapter introduces filtering with WHERE and HAVING and some best practices for how (and how not) to use these keywords. Next, it explains the methods used to interrogate data and the effects these may have on performance. Finally, the chapter goes over the roles of DISTINCT() and UNION in removing duplicates and their potential effects on performance.
 
 

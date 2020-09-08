@@ -1,4 +1,4 @@
--- Controlling the concurrency: Transaction isolation levels
+-- Controlling the concurrency: Transaction isolation levels!!
 -- This chapter defines what concurrency is and how it can affect transactions. You will learn exciting concepts like dirty reads, repeatable reads, and phantom reads. To avoid or allow this reads, you will explore, one by one, the different transaction isolation levels.
 
 

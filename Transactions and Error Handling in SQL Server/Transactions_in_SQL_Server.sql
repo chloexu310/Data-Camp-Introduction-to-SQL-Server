@@ -1,4 +1,4 @@
--- Transactions in SQL Server
+-- Transactions in SQL Server!!
 -- In this chapter, you will be introduced to the concept of transactions. You will discover how to commit and rollback them. You will finish by learning how to return the number of transactions and their state.
 
 

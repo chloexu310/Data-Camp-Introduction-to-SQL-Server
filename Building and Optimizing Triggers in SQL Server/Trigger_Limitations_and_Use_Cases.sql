@@ -1,6 +1,6 @@
 -- Trigger Limitations and Use Cases
 -- Find out known limitations of triggers, as well as common use cases for AFTER triggers (DML), INSTEAD OF triggers (DML) and DDL triggers.
-
+-- Classification of Triggers
 -- Creating a report on existing triggers
 -- Taking on the responsibility of administrating the database for the Fresh Fruit Delivery company also means keeping an eye on existing triggers.
 

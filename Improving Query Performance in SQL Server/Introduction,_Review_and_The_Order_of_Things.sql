@@ -1,4 +1,4 @@
-# Introduction, Review and The Order of Things
+# Introduction, Review and The Order of Things !!
 # In this chapter, students will learn how SQL code formatting, commenting, and aliasing is used to make queries easy to read and understand. Students will also be introduced to query processing order in the database versus the order of the SQL syntax in a query.
 
 
